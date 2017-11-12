@@ -122,6 +122,35 @@ a {
       .masthead .intro-body .intro-text {
         font-size: 22px; } }
 
+.residential-masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../img/house2.jpg") no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .residential-masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .residential-masthead .intro-body .brand-heading {
+      font-size: 50px; }
+    .residential-masthead .intro-body .intro-text {
+      font-size: 18px; }
+  @media (min-width: 768px) {
+    .residential-masthead {
+      height: 100%;
+      padding: 0; }
+      .residential-masthead .intro-body .brand-heading {
+        font-size: 100px; }
+      .residential-masthead .intro-body .intro-text {
+        font-size: 22px; } }
+
 .btn-circle {
   font-size: 26px;
   width: 55px;
